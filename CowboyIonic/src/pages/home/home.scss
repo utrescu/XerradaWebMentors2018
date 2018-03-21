@@ -1,0 +1,14 @@
+page-home {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.centercontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left {
+  align-self: flex-start;
+}

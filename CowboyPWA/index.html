@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="canonical" href="http://localhost/">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="mask-icon" href="images/icons/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cowboy PWA</title>
+  <link rel="stylesheet" type="text/css" href="styles/inline.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <h1 class="_title">Cowboy PWA</h1>
+    <button id="butRefresh" class="headerButton" aria-label="Refresh"></button>
+  </header>
+
+  <main class="main">
+    <div class="card cardTemplate">
+      <img src="images/cowboy.png" class="_logo"></img>
+      <form class="_formLogin">
+        <label class="_text">Usuari</label>
+        <input type="text" name="u" class="_entrada">
+        <label class="_text">Contrasenya</label>
+        <input type="password" name="p" class="_entrada">
+        <input type="submit" class="_botosubmit" value="Entrar">
+      </form>
+    </div>
+  </main>
+
+  <script src="scripts/app.js" async></script>
+
+</body>
+
+</html>

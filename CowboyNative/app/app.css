@@ -1,0 +1,6 @@
+@import '~nativescript-theme-core/css/blue.css';
+
+ActionBar {
+  background-color: #3c5afd;
+  color: white;
+}
